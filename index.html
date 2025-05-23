@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa na Nave Espacial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="overlay"></div>
+    <div class="background-container">
+        <!-- Triangles will be added by JavaScript -->
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <h1>Festa na Nave Espacial 🚀</h1>
+        <p class="description">Organize os assentos para formar um palíndromo intergaláctico!</p>
+        
+        <div class="input-group">
+            <label for="seats-input">Digite os números dos assentos (ex: 1,2,3,2,1):</label>
+            <input type="text" id="seats-input" placeholder="Ex: 1,2,3,2,1">
+        </div>
+        
+        <div class="button-group">
+            <button id="check-btn" style="--clr:#00FFFF"><span>VERIFICAR</span><i></i></button>
+            <button id="reset-btn" style="--clr:#FF00FF"><span>RETORNAR</span><i></i></button>
+        </div>
+        
+        <div class="result-container">
+            <h2>Resultado:</h2>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="background.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
