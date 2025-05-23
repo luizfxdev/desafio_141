@@ -28,12 +28,7 @@ Entrada: [1, 2, 3, 2, 1] → Saída: true
 
 Entrada: [1, 2, 3] → Saída: false
 
-📦 Como Executar
-Clone o repositório:
 
-bash
-git clone https://github.com/luizfxdev/desafio_141
-Abra o arquivo index.html no seu navegador
 
 🎨 Personalização
 Você pode alterar:
